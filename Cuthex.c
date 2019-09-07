@@ -10,7 +10,7 @@ typedef struct Node
     char endaddress[20];
     struct Node *next;
 }ListNode;
-int N;
+int N;//test
 void init(ListNode* head,char inputfilename[]);
 void inittest(ListNode* head);
 void cut(ListNode* head);
